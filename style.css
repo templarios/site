@@ -1,0 +1,197 @@
+        body {
+            position: relative;
+            font-family: 'Playfair Display', serif; 
+        }
+
+        .navbar {
+            border-radius: 0px;
+            margin-bottom: 0px;
+        }
+
+        .navbar .navbar-nav {
+            display: inline-block;
+            float: none;
+            vertical-align: top;
+            padding-top: 5px;
+        }
+
+        .navbar .navbar-collapse {
+            text-align: center;
+        }
+
+        .navbar-inverse {
+            background-color: rgba(0, 0, 0, 1);
+            min-height: 63px;
+        }
+
+        .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+            color: #caab4c;
+            background-color: transparent;
+        }
+
+        .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+            color: #caab4c;
+            background-color: #080808;
+        }
+
+        .navbar-inverse .navbar-nav>li>a {
+            color: #fff;
+        }
+
+        li.divider {
+            color: #e6c357;
+            margin-top: 14px;
+        }
+
+        .navbar-nav>li {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .container-fluid.banner {
+            padding-right: 0px;
+            padding-left: 0px;
+        }
+
+        .sobre {
+            margin-right: 10%;
+            margin-left: 20%;
+            margin-top: 5%;
+        }
+
+        .sobre h1.text-uppercase.text-left {
+            color: #E6C357;
+            background: #49150d;
+            max-width: 130px;
+            padding: 4px;
+        }
+
+        .sobre p.text-justify {
+            color: #49150D;
+        }
+
+        .cevacasa {
+            background-image: url(back1.png);
+            padding-bottom: 5%;
+        }
+
+        .cevacasa span {
+            color: #49150d;
+            background: #E6C357;
+            padding: 4px;
+        }
+
+        .col-lg-3 p {
+            color: #999797;
+        }        
+
+        h3 {
+            color: #E6C357;
+            margin-top: 15%;
+        }
+
+        .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+            width: 100%;
+        }
+
+        #googleMap {
+            width: 100%;
+            height: 400px;
+        } 
+
+        .google {
+            margin-top: 5%; 
+            padding-left: 10%;
+            padding-right: 10%;
+            background-color: #000;
+            padding-top: 4%;
+        }
+
+        .formulario {
+            padding-left: 35%;
+            padding-right: 35%;
+        }
+
+        #contato span {
+            color: #E6C357;
+            background: #49150d;
+            padding: 4px;
+        }
+
+        .h2, h2 {
+            margin-bottom: 10%;
+        }
+
+        .form-control {
+            color: #fff;
+            background-color: #49150D;
+            border: 0px solid rgba(255, 255, 255, 1);
+        }
+
+        .btn-default {
+            background-color: rgba(230, 195, 87, 0.93);
+            border: 0;
+            color: #49150D;
+            border-radius: 0px;
+        }
+
+        .btn-default:hover, .btn-default:active {
+            color: rgba(230, 195, 87, 0.93);
+            background-color: #49150D;
+            border-color: #adadad;
+        }
+
+        .btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+            color: rgba(230, 195, 87, 0.93);
+            background-color: #49150D;
+            border-color: #adadad;
+        }
+
+        .footer {
+            padding-top: 5%;
+            padding-right: 10%;
+            padding-left: 20%;
+            padding-bottom: 5%;
+            margin-top: -2px;
+        }
+
+        h4 {
+            color: rgba(230, 195, 87, 0.93);
+        }
+
+        .footer p {
+            color: #fff;
+        }
+
+        @media (max-width: 700px) { 
+            .sobre {
+                margin-right: 0px;
+                margin-left: 0px;
+            }
+
+            .banner {
+                margin-top: 15%;
+            }
+
+            #galeria {
+                margin-top: 0px;
+            }
+
+            .formulario {
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+
+            .footer {
+                padding-right: 0px;
+                padding-left: 0px;
+            }
+
+            .carousel-caption h3 {
+                font-size: 12px;
+            }
+
+            .carousel-caption p {
+                font-size: 10px;
+            }
+        }
